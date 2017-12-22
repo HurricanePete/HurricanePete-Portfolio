@@ -1,3 +1,27 @@
+main {
+	padding-top: 4.5rem;
+}
+
+section{
+	background-color: #bbb;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+article {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+section:nth-child(even) {
+	background-color: #ddd;
+}
+
 ul {
-  list-style: none;
+	list-style: none;
+	padding-left: 0;
+}
+
+.m-auto {
+	margin: 0 auto;
 }

@@ -9,7 +9,7 @@ export default class ProjectSection extends React.Component {
 			projects: [{
 				title: 'Joystick Informer',
 				description: 'Joystick Informer allows users to search for and buy console games using eBay or Amazon, as well as stay up to date with recent gaming news. After creating an account, users can also save their favorite games and see personalized recommendations based on their tastes.',
-				technologies: ['Node', 'React', 'React-Redux'],
+				technologies: ['Node', 'MongoDb', 'React', 'React-Redux'],
 				link: 'https://barber-bertie-68258.netlify.com/',
 				repo: ['https://github.com/HurricanePete/Joystick-Informer', 'https://github.com/HurricanePete/Joystick-Server']
 			}, {
@@ -36,6 +36,9 @@ export default class ProjectSection extends React.Component {
 
 		return(
 			<section className="row">
+				<header className="col-9 clear-float m-auto">
+					<h3>Projects</h3>
+				</header>
 				{tiles}
 			</section>
 		)

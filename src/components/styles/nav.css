@@ -1,0 +1,24 @@
+nav {
+	text-align: center;
+	align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 22px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    height: 4.5rem;
+}
+
+nav.nav-bar li {
+	display: inline-block;
+}
+
+.nav-profile {
+	color: white;
+	float: left;
+}
+
+.nav-link {
+	float: right;
+}

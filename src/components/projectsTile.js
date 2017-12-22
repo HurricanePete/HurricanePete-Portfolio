@@ -15,7 +15,7 @@ export default class ProjectsTile extends React.Component {
 			<li key={index}>{tech}</li>
 		)
 		return(
-			<article className="col-9">
+			<article className="col-9 clear-float m-auto">
 				<h4>{tile.title}</h4>
 				<p>{tile.description}</p>
 				<ul>

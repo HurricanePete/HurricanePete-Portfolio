@@ -3,6 +3,10 @@
 	box-sizing: border-box;
 }
 
+.clear-float {
+	float: none !important;
+}
+
 .row {
 	max-width: 1920px;
 	padding-left: 20px;
