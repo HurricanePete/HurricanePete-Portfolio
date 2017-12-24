@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import './styles/contact.css';
+
 const StyledFooter = styled.footer.attrs({
 	className: 'w-100 ph3 ph5-m ph6-l mid-gray tc'
 })`
