@@ -1,16 +1,33 @@
 import React from 'react';
 
+import MenuIcon from './menuIcon';
+import Menu from './menu';
+
 import './styles/nav.css';
 
-export default function NavBar(props) {
-	return(
-		<nav className="nav-bar bg-black-90 fixed col-12">
-			<div className="nav-profile">Zak Pete</div>
-			<ul className="nav-link">
-				<li className="link dim white mr3"><a>Bio</a></li>
-				<li className="link dim white mr3"><a>Projects</a></li>
-				<li className="link dim white mr3"><a>Contact Me</a></li>
-			</ul>
-		</nav>
-	)
+export default class NavBar extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			menuToggle: false
+		}
+	}
+
+	menuClick() {
+		this.setState({menuToggle: !this.state.menuToggle})
+	}
+
+	render() {
+		const show = this.state.menuToggle;
+		return(
+			<nav className="fixed col-12">
+				<div className="nav-bar">
+					<span className="nav-profile dib pointer">Zak Pete</span>
+					<MenuIcon onClick={() => this.menuClick()} />
+					<Menu display={'true'} />
+				</div>
+				{show ? <Menu /> : null}
+			</nav>
+		)
+	}
 }

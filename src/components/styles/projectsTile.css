@@ -1,0 +1,22 @@
+ul.tech > li {
+	margin: 0.5rem;
+}
+
+.link-button {
+	font-weight: 600;
+	background-color: #003500;
+	color: white;
+	padding: 0.5rem 1.5rem;
+	border-radius: 3px;
+	transition-property: background-color, color, border;
+	transition-duration: 0.5s;
+}
+
+.link-button:hover {
+	background-color: #FFB732;
+	color: #003500;
+}
+
+.article-align {
+	padding: 0rem 2.5rem;
+}

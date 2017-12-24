@@ -1,3 +1,21 @@
 section.contact li {
-	display: inline-block;
+	/*display: inline-block;*/
+}
+
+a.contact-link > i {
+	color: #003500;
+	transition: color 0.5s linear;
+}
+
+a.contact-link > i:hover {
+	color: #FFB732;
+}
+
+a.contact-link:visited {
+	color: #003500;
+}
+
+li.contact-email {
+	font-size: 16px;
+	color: #003500;
 }

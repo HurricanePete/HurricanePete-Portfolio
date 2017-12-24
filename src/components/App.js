@@ -4,7 +4,7 @@ import NavBar from './nav';
 import Bio from './bio';
 import ProjectSection from './projectSection';
 import Contact from './contact';
-import Footer from './footer';
+import FooterBar from './footer';
 
 import './styles/App.css';
 import './styles/response-grid.css';
@@ -14,12 +14,11 @@ export default class App extends React.Component {
     return (
     	<div>
 	    	<NavBar />
-	    	<main className="">
+	    	<main className="ph3">
 		        <Bio />
 		        <ProjectSection />
-		        <Contact />
 	      	</main>
-	      	<Footer />
+	      	<FooterBar />
 		</div>
     );
   }

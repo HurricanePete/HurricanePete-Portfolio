@@ -1,24 +1,51 @@
 nav {
 	text-align: center;
-	align-content: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     font-size: 22px;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    height: 4.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #003500;
 }
 
-nav.nav-bar li {
+div.nav-bar {
+	display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+nav li {
 	display: inline-block;
+}
+
+nav i {
+	float: right;
+	padding: 0.5rem;
+}
+
+nav a {
+	color: white;
+}
+
+nav a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.menu-drop {
+	transform: translateY(-150%);
+	transition: 0.5s ease-in;
+}
+
+.slideIn {
+	transform: translateY(0);
+}
+
+.slideOut {
+	transform: translateY(-100%);
 }
 
 .nav-profile {
 	color: white;
 	float: left;
-}
-
-.nav-link {
-	float: right;
+	padding: 0.5rem;
 }
