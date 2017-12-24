@@ -11,7 +11,7 @@ import './styles/response-grid.css';
 export default class App extends React.Component {
   render() {
     return (
-    	<div>
+    	<div id="bio">
 	    	<NavBar />
 	    	<main className="ph3">
 		        <Bio />

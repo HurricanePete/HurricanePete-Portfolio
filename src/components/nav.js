@@ -19,10 +19,11 @@ export default class NavBar extends React.Component {
 
 	render() {
 		const show = this.state.menuToggle;
+		const github = 'https://github.com/HurricanePete';
 		return(
 			<nav className="fixed col-12">
 				<div className="nav-bar">
-					<span className="nav-profile dib pointer">Zak Pete</span>
+					<a href={github} target="_blank" rel="noopener noreferrer"><span className="nav-profile dib pointer">Zak Pete</span></a>
 					<MenuIcon onClick={() => this.menuClick()} />
 					<Menu display={'true'} />
 				</div>

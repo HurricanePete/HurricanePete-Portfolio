@@ -1,9 +1,10 @@
 nav {
 	text-align: center;
     font-size: 22px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     background-color: #003500;
+    z-index: 10;
 }
 
 div.nav-bar {
@@ -36,16 +37,13 @@ nav a:visited {
 	transition: 0.5s ease-in;
 }
 
-.slideIn {
-	transform: translateY(0);
-}
-
-.slideOut {
-	transform: translateY(-100%);
-}
-
 .nav-profile {
+	font-size: 30px;
 	color: white;
 	float: left;
-	padding: 0.5rem;
+	transition: color 0.5s;
+}
+
+.nav-profile:hover {
+	color: #FFB732;
 }
