@@ -14,7 +14,7 @@ export default class FooterBar extends React.Component {
 		const github = 'https://github.com/HurricanePete';
 		const linkedIn = 'https://www.linkedin.com/in/zachary-pete-78131a94/';
 		return(
-			<StyledFooter className="" id="contact">
+			<StyledFooter id="contact">
 				<header className="col-8 clear-float m-auto">
 					<h3>Get In Touch</h3>
 				</header>
