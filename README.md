@@ -1,5 +1,5 @@
-## My Portfolio
-# Portfolio Site for My Projects
+# My Portfolio
+## Portfolio Site for My Projects
 
 ## Technologies
 
