@@ -1,7 +1,3 @@
-section.contact li {
-	/*display: inline-block;*/
-}
-
 a.contact-link > i {
 	color: #003500;
 	transition: color 0.5s linear;
