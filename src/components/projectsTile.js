@@ -9,7 +9,7 @@ export default class ProjectsTile extends React.Component {
 	
 	render() {
 		const tile = this.props;
-		let repoSection = <li className="dib tc"><a className="" href={tile.repo} target="_blank"><div className="link-button w4">Repo</div></a></li>;
+		let repoSection = <li className="dib tc"><a className="" href={tile.repo} target="_blank"><div className="link-button">Repo</div></a></li>;
 		if(Array.isArray(tile.repo)) {
 //adds multiple repo links if there is front and back-end 
 			repoSection = tile.repo.map((item, index) => 
@@ -17,7 +17,7 @@ export default class ProjectsTile extends React.Component {
 			);
 		};
 		const technologies = tile.technologies.map((tech, index) => 
-			<li className="dib tc fw6 mh3" key={index}>{tech}</li>
+			<li className="tech-item dib tc fw6 mh3" key={index}>{tech}</li>
 		);
 		return(
 			<article className="project-tile col-8 clear-float m-auto">
@@ -30,7 +30,7 @@ export default class ProjectsTile extends React.Component {
 						{technologies}
 					</ul>
 					<ul className="tech tc m-auto">
-						<li className="dib tc"><a className="" href={tile.link} target="_blank"><div className="link-button tc w4">Live</div></a></li>
+						<li className="dib tc"><a className="" href={tile.link} target="_blank"><div className="link-button tc">Live</div></a></li>
 						{repoSection}
 					</ul>
 				</Fade>

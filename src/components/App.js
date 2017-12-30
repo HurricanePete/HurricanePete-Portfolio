@@ -13,7 +13,7 @@ export default class App extends React.Component {
     return (
     	<div id="bio">
 	    	<NavBar />
-	    	<main className="ph3">
+	    	<main>
 		        <Bio />
 		        <ProjectSection />
 	      	</main>
