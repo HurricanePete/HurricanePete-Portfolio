@@ -3,10 +3,10 @@
 }
 
 main {
-	padding-top: 60px;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	line-height: 2rem;
+	padding-top: 4rem;
+/*	padding-left: 1rem;
+	padding-right: 1rem;*/
+	line-height: 1.75rem;
 	background-color: #E7ECE7;
 }
 
@@ -34,6 +34,58 @@ img.avatar {
 	width: 400px;
 }
 
+div.project-row {
+	background-color: #2e3838;
+	position: relative;
+	z-index: 1;
+	/*clip-path: polygon(100% 0, 100% 96%, 0 100%, 0 0);*/
+}
+
+div.project-row:before {
+	background-color: inherit;
+	top: 0;
+	content: '';
+	display: block;
+	height: 50%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	transform: skewY(-4deg);
+	transform-origin: 0 100%;
+	z-index: -1;
+}
+
+div.project-row h1 {
+	color: #E7ECE7;
+	margin-bottom: 3rem;
+}
+
+/*
+	div.project-row:after, div.project-row:after {
+		background-color: inherit;
+		content: '';
+		display: block;
+		height: 50%;
+		position: absolute;
+		left: 0;
+		right: 0;
+		z-index: -1;
+		-webkit-backface-visibility: hidden;
+	}
+
+	div.project-row:before {
+		top: 0;
+		transform: skewY(-1.5deg);
+		transform-origin: 100% 0;
+	}
+
+	div.project-row:after {
+		bottom: 0;
+		transform: skewY(-1.5deg);
+		transform-origin: 100%;
+	}*/
+		
+
 .hidden {
 	display: none;
 }
@@ -51,5 +103,10 @@ span.nav-spacing {
 	main {
 		padding-left: 0rem;
 		padding-right: 0rem;
+	}
+
+	div.project-row .row {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }

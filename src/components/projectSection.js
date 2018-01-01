@@ -42,6 +42,7 @@ export default class ProjectSection extends React.Component {
 		); 
 
 		return(
+		<div className="project-row">
 			<section className="row">
 				<header className="col-8 clear-float tc m-auto">
 					<span className="nav-spacing" id="projects"></span>
@@ -49,6 +50,7 @@ export default class ProjectSection extends React.Component {
 				</header>
 				{tiles}
 			</section>
+		</div>
 		)
 	}
 }

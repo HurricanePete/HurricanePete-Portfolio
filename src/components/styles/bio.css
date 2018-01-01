@@ -1,12 +1,20 @@
 article.bio {
-	margin: 1rem auto;
+	margin: 4rem auto 1rem auto;
 	text-align: center;
 }
 
+.hero h2 {
+	line-height: 1.25;
+}
 
 @media only screen and (min-width: 1000px) {
+	.hero {
+		height: 92vh;
+		min-height: 550px;
+	}
+
 	article.bio {
-		margin: 1rem auto;
+		margin: 5rem auto;
 	    display: flex;
 	    justify-content: center;
 	    align-items: center;
