@@ -17,13 +17,13 @@ export default class ProjectsTile extends React.Component {
 			);
 		};
 		const technologies = tile.technologies.map((tech, index) => 
-			<li className="tech-item dib tc fw6 mh3" key={index}>{tech}</li>
+			<li className="tech-item dib tc" key={index}>{tech}</li>
 		);
 		return(
 			<Fade bottom big fraction={0.01} duration={700}>
 				<article className="project-tile col-9 clear-float m-auto">
 					<div className="tile-head">
-						<h3>{tile.title}</h3>
+						<h2>{tile.title}</h2>
 						<ul className="tech tl m-auto">
 							{technologies}
 						</ul>
@@ -32,7 +32,7 @@ export default class ProjectsTile extends React.Component {
 						<a href={tile.link} target="_blank"><img src={tile.image} alt={tile.title} /></a>
 					</div>
 					<p className="article-align ma0">{tile.description}</p>
-					<ul className="links tc m-auto">
+					<ul className="links tc">
 						<li className="dib tc"><a className="" href={tile.link} target="_blank"><div className="link-button tc">Live</div></a></li>
 						{repoSection}
 					</ul>

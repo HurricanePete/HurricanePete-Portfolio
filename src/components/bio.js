@@ -12,7 +12,7 @@ export default class Bio extends React.Component {
 		return(
 			<section className="row hero">
 				<header className="col-8 clear-float m-auto">
-					<h2 className="tc"><span className="db">Hello, I’m Zak.</span> I am a fullstack JavaScript web developer, React fan, and API lover.</h2>
+					<h1 className="tc"><span className="db">Hello, I’m Zak.</span> I am a fullstack JavaScript web developer, React fan, and API lover.</h1>
 				</header>
 				<article className="bio">
 						<img className="avatar" src={ProfilePic} alt="Profile" />

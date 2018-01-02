@@ -4,6 +4,7 @@ nav {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     background-color: #2e3838;
+    border-bottom: 1px solid #E7ECE7;
     z-index: 10;
 }
 
