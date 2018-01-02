@@ -18,7 +18,7 @@ export default class FooterBar extends React.Component {
 				<header className="col-8 clear-float m-auto">
 					<h3>Get In Touch</h3>
 				</header>
-				<ul className="col-8 clear-float m-auto">
+				<ul className="contact-list col-8 clear-float m-auto">
 					<li className="contact-email">zpete725@gmail.com</li>
 					<li className="dib ma3"><a className="contact-link" href={linkedIn} target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-3x"></i></a></li>
 					<li className="dib ma3"><a className="contact-link" href={github} target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square fa-3x"></i></a></li>

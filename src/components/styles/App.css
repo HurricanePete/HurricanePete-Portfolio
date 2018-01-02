@@ -60,32 +60,6 @@ div.project-row h1 {
 	margin-bottom: 3rem;
 }
 
-/*
-	div.project-row:after, div.project-row:after {
-		background-color: inherit;
-		content: '';
-		display: block;
-		height: 50%;
-		position: absolute;
-		left: 0;
-		right: 0;
-		z-index: -1;
-		-webkit-backface-visibility: hidden;
-	}
-
-	div.project-row:before {
-		top: 0;
-		transform: skewY(-1.5deg);
-		transform-origin: 100% 0;
-	}
-
-	div.project-row:after {
-		bottom: 0;
-		transform: skewY(-1.5deg);
-		transform-origin: 100%;
-	}*/
-		
-
 .hidden {
 	display: none;
 }
