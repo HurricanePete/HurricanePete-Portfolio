@@ -1,8 +1,5 @@
 import React from 'react';
 
-//imported animation component
-import {Fade} from 'react-reveal';
-
 import ProfilePic from './static-photos/ProfilePicEdit.JPG';
 
 import './styles/bio.css';
