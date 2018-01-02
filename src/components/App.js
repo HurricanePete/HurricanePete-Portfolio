@@ -9,16 +9,16 @@ import './styles/App.css';
 import './styles/response-grid.css';
 
 export default class App extends React.Component {
-  render() {
-    return (
-    	<div id="bio">
-	    	<NavBar />
-	    	<main className="ph3">
-		        <Bio />
-		        <ProjectSection />
-	      	</main>
-	      	<FooterBar />
-		</div>
-    );
-  }
+	render() {
+	    return (
+	    	<div id="bio">
+		    	<NavBar />
+		    	<main>
+			        <Bio />
+			        <ProjectSection />
+		      	</main>
+		      	<FooterBar />
+			</div>
+	    );
+	}
 }

@@ -1,14 +1,20 @@
 a.contact-link > i {
-	color: #003500;
-	transition: color 0.5s linear;
+	background: none;
+	color: #eb6a07;
+	transition: all 0.25s ease-in-out 0s;
+	padding: 1px 5px;
 }
 
 a.contact-link > i:hover {
-	color: #FFB732;
+	transform: scale(1.1);
+	background: #eb6a07;
+	color: white;
+	transition: all 0.25s ease-in-out 0s;
+	border-radius: 5px;
 }
 
 a.contact-link:visited {
-	color: #003500;
+	color: #eb6a07;
 }
 
 li.contact-email {

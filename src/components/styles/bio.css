@@ -1,0 +1,35 @@
+article.bio {
+	margin: 4rem auto 1rem auto;
+	text-align: center;
+	font-size: small;
+}
+
+.hero h1 {
+	line-height: 1.25;
+	font-size: large;
+}
+
+@media only screen and (min-width: 1000px) {
+	.hero {
+		height: 92vh;
+		min-height: 550px;
+	}
+
+	.hero h1 {
+		font-size: 28px;
+	}
+
+	article.bio {
+		margin: 5rem auto;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    font-size: initial;
+	}
+
+	div.bio-summary {
+		margin: 0 3rem;
+	    width: 50%;
+	}
+
+}

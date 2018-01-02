@@ -14,7 +14,7 @@ const MenuListItem = styled.li.attrs({
 `;
 
 export default class MenuItem extends React.Component {
-
+	
 	render() {
 		return(
 			<ul className="ma0" >

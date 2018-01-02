@@ -9,7 +9,7 @@ const fadeAnimation = keyframes`${fadeIn}`
 
 const MenuComponent = styled.div`
 	animation: 0.5s ${fadeAnimation};
-	background-color: #003500;
+	background-color: #2e3838;
 	transition: background-color 1s;
 	color: white;
 
