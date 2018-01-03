@@ -20,7 +20,7 @@ export default class ProjectSection extends React.Component {
 			}, {
 				title: 'Chef Pages',
 				image: ChefPagesImage,
-				description: 'Chef Pages is an app to search and save your recipes in one convenient place. Add your own recipes, or search the web for inspiration. Find something you like? Chef Pages can add it to the database for you! Apply custom tags or a cookbook name in order to find it again later, or personalize the recipe with your own suggestions.',
+				description: 'Chef Pages is an app to search and save your recipes in one convenient place. Users can add their own recipes, or search the web for inspiration. Find something you like? Chef Pages can add it to the database for you! Apply custom tags or a cookbook name in order to find it again later, or personalize the recipe with your own suggestions.',
 				technologies: ['Node', 'MongoDb', 'jQuery'],
 				link: 'https://sleepy-ravine-11904.herokuapp.com/',
 				repo: 'https://github.com/HurricanePete/chef-pages'
