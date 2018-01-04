@@ -4,8 +4,6 @@
 
 main {
 	padding-top: 4rem;
-/*	padding-left: 1rem;
-	padding-right: 1rem;*/
 	line-height: 1.75rem;
 	background-color: #E7ECE7;
 }
@@ -38,7 +36,6 @@ div.project-row {
 	background-color: #2e3838;
 	position: relative;
 	z-index: 1;
-	/*clip-path: polygon(100% 0, 100% 96%, 0 100%, 0 0);*/
 }
 
 div.project-row:before {

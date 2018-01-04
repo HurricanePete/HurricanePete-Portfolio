@@ -1,6 +1,6 @@
 nav {
 	text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     background-color: #2e3838;
@@ -12,7 +12,8 @@ div.nav-bar {
 	display: flex;
     align-items: center;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 3rem;
 }
 
 nav li {
@@ -26,11 +27,15 @@ nav i {
 
 nav a {
 	color: white;
+	transition: color 0.5s;
+}
+
+nav a:hover {
+	color: #eb6a07;
 }
 
 nav a:visited {
 	text-decoration: none;
-	color: white;
 }
 
 .menu-drop {
@@ -41,7 +46,6 @@ nav a:visited {
 .nav-profile {
 	font-size: 30px;
 	color: white;
-	float: left;
 	transition: color 0.5s;
 }
 

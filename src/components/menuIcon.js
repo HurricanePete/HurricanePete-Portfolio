@@ -14,7 +14,9 @@ const StyleIcon = styled.span.attrs({
 export default class MenuIcon extends React.Component {
 	render() {
 		return(
-			<StyleIcon onClick={this.props.onClick}><i className="fas fa-bars"></i></StyleIcon>
+			<StyleIcon onClick={this.props.onClick}>
+				<i className="fas fa-bars"></i>
+			</StyleIcon>
 		)
 	}
 }

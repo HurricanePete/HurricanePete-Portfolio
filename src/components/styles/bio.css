@@ -1,12 +1,17 @@
 article.bio {
-	margin: 4rem auto 1rem auto;
+	margin: 2rem auto 1rem auto;
 	text-align: center;
 	font-size: small;
 }
 
 .hero h1 {
-	line-height: 1.25;
-	font-size: large;
+	font-size: 22px;
+}
+
+.hero h2 {
+	text-align: center;
+	margin: 4rem auto 0 auto;
+	font-size: 20px;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -16,11 +21,18 @@ article.bio {
 	}
 
 	.hero h1 {
-		font-size: 28px;
+		line-height: 1.25;
+		font-size: 30px;
+	}
+
+	.hero h2 {
+		text-align: center;
+		margin: 5rem auto 2rem auto;
+		font-size: 25px;
 	}
 
 	article.bio {
-		margin: 5rem auto;
+		margin: 1rem auto 5rem auto;
 	    display: flex;
 	    justify-content: center;
 	    align-items: center;

@@ -12,6 +12,10 @@ div.tile-head {
 	border-left: 5px solid #eb6a07;
 }
 
+div.tile-head > h2 {
+	font-size: 28px;
+}
+
 div.img-wrapper {
 	padding: 1rem 2.5rem;
 }
@@ -25,8 +29,9 @@ ul.tech > li {
 	margin-bottom: 0.5rem;
     background-color: #2e3838;
     color: white;
-    padding: 0 0.5rem;
+    padding: 0.25rem 0.75rem;
     font-weight: 600;
+    font-size: large;
 }
 
 ul.tech > :last-child {
