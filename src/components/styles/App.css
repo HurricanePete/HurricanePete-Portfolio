@@ -52,9 +52,10 @@ div.project-row:before {
 	z-index: -1;
 }
 
-div.project-row h1 {
+h2.project-head {
 	color: #E7ECE7;
 	margin-bottom: 3rem;
+	font-size: 25px;
 }
 
 .hidden {
@@ -79,5 +80,9 @@ span.nav-spacing {
 	div.project-row .row {
 		padding-left: 0;
 		padding-right: 0;
+	}
+
+	h2.project-head {
+		font-size: 20px;
 	}
 }

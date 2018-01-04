@@ -9,7 +9,7 @@ export default class Bio extends React.Component {
 		return(
 			<section className="row hero">
 				<header className="col-8 clear-float m-auto">
-					<h1 className="tc"><span className="db">Hello, I’m Zak.</span> I am a full stack JavaScript web developer and React fan.</h1>
+					<h1 className="tc"><span className="db">Hello, I’m Zak.</span> I am a full stack JavaScript web developer.</h1>
 				</header>
 				<h2>About Me</h2>
 				<article className="bio">

@@ -46,7 +46,7 @@ export default class ProjectSection extends React.Component {
 		<span className="nav-spacing" id="projects"></span>
 			<section className="row">
 				<header className="col-8 clear-float tc m-auto">
-					<h1>Projects</h1>
+					<h2 className="project-head">Projects</h2>
 				</header>
 				{tiles}
 			</section>
