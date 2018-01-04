@@ -55,7 +55,7 @@ div.project-row:before {
 h2.project-head {
 	color: #E7ECE7;
 	margin-bottom: 3rem;
-	font-size: 25px;
+	text-transform: uppercase;
 }
 
 .hidden {
@@ -80,9 +80,5 @@ span.nav-spacing {
 	div.project-row .row {
 		padding-left: 0;
 		padding-right: 0;
-	}
-
-	h2.project-head {
-		font-size: 20px;
 	}
 }
