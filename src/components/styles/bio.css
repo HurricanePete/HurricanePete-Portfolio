@@ -8,6 +8,12 @@ article.bio {
 	text-align: center;
 	margin: 4rem auto 0 auto;
 	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+span.contact {
+	color: blue;
+	text-decoration: underline;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -17,8 +23,8 @@ article.bio {
 	}
 
 	.hero h2 {
-		text-align: center;
-		margin: 5rem auto 2rem auto;
+		text-align: left;
+		margin: 5rem auto 2rem 5rem;
 	}
 
 	article.bio {
@@ -30,8 +36,8 @@ article.bio {
 	}
 
 	div.bio-summary {
-		margin: 0 3rem;
-	    width: 50%;
+		margin-left: 5rem;
+	    width: 60%;
 	}
 
 }

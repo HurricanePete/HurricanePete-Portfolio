@@ -22,6 +22,11 @@ div.img-wrapper {
 
 div.img-wrapper > a > img {
 	width: 100%;
+	transition: all 0.25s ease-in-out;
+}
+
+div.img-wrapper > a > img:hover {
+	opacity: 0.75;
 }
 
 ul.tech > li {
@@ -103,7 +108,6 @@ ul.links > li {
 	}
 
 	.article-align {
-		font-size: small;
 		padding: 0 1rem;
 	}
 

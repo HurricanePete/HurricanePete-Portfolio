@@ -23,13 +23,13 @@
 	clear: both;
 }
 
-.col-3, .col-4, .col-6, .col-8, .col-9, .col-12 {
+.col-3, .col-4, .col-6, .col-8, .col-9, .col-12, div.react-reveal {
 	float: left;
 	padding-left: 1.04166666%;
 	padding-right: 1.04166666%;
 }
 
-.col-3, .col-4, .col-6, .col-8, .col-12 {
+.col-3, .col-4, .col-6, .col-8, .col-12, div.react-reveal {
 	width: 100%;
 }
 
@@ -42,7 +42,7 @@
 		width: 33.333%;
 	}
 
-	.col-6 {
+	div.react-reveal, .col-6 {
 		width: 50%;
 	}
 

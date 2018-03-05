@@ -29,7 +29,7 @@ export default class ProjectsTile extends React.Component {
 		);
 		return(
 			<Fade bottom big fraction={0.01} duration={700}>
-				<article className="project-tile col-9 clear-float m-auto">
+				<article className="project-tile clear-float m-auto">
 					<div className="tile-head">
 						<h2>{tile.title}</h2>
 						<ul className="tech tl m-auto" id="tech">
