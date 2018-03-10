@@ -3,9 +3,8 @@
 }
 
 main {
-	padding-top: 4rem;
 	line-height: 1.75rem;
-	background-color: #E7ECE7;
+	background-color: aliceblue;
 }
 
 section{
@@ -51,7 +50,7 @@ div.project-row:before {
 	left: 0;
 	position: absolute;
 	right: 0;
-	transform: skewY(-4deg);
+	transform: skewY(-11deg);
 	transform-origin: 0 100%;
 	z-index: -1;
 }

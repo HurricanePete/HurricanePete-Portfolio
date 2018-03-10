@@ -1,0 +1,38 @@
+header.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 77vh;
+	width: 100%;
+	padding: 2rem;
+}
+
+header.intro > h3 {
+	font-size: 13px;
+}
+
+h2.intro {
+	font-size: 16px;
+	line-height: 1.5;
+	width: 100%;
+}
+
+span.highlight {
+	color: slategrey;
+}
+
+@media only screen and (min-width: 1000px) {
+	header.intro {
+		width: 50%;
+		padding: 4rem;
+		height: 80vh;
+	}
+
+	header.intro > h3 {
+		font-size: 18px;
+	}
+
+	h2.intro {
+		font-size: 26px;
+	}
+}

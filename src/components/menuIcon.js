@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyleIcon = styled.span.attrs({
-	className: 'white ba bw1 b--white br2 pointer'
+	className: 'black ba bw1 b--black br2 pointer'
 })`
 	display: none;
 

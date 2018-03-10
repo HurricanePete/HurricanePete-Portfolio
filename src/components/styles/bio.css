@@ -5,8 +5,8 @@ article.bio {
 }
 
 .hero h2 {
-	text-align: center;
-	margin: 4rem auto 0 auto;
+	text-align: left;
+	margin: 0 auto;
 	text-transform: uppercase;
 	text-decoration: underline;
 }
@@ -23,8 +23,7 @@ span.contact {
 	}
 
 	.hero h2 {
-		text-align: left;
-		margin: 5rem auto 2rem 5rem;
+		margin: 5rem auto 2rem 2rem;
 	}
 
 	article.bio {
@@ -36,7 +35,7 @@ span.contact {
 	}
 
 	div.bio-summary {
-		margin-left: 5rem;
+		margin-left: 2rem;
 	    width: 60%;
 	}
 

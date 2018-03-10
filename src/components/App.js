@@ -1,8 +1,9 @@
 import React from 'react';
 
 import NavBar from './nav';
-import Bio from './bio';
+import Intro from './intro';
 import ProjectSection from './projectSection';
+import Bio from './bio';
 import FooterBar from './footer';
 
 import './styles/App.css';
@@ -14,8 +15,9 @@ export default class App extends React.Component {
 	    	<div id="bio">
 		    	<NavBar />
 		    	<main>
-			        <Bio />
+			        <Intro />
 			        <ProjectSection />
+			        <Bio />
 		      	</main>
 		      	<FooterBar />
 			</div>
