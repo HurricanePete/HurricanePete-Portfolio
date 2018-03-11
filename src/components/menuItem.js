@@ -6,6 +6,7 @@ const MenuListItem = styled.li.attrs({
 })`
 	display: inline-block;
 	margin: 0 1rem;
+	z-index: 0;
 
 	@media (max-width: 1000px) {
 		display: block;

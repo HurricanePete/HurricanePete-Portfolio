@@ -5,6 +5,7 @@ const StyleIcon = styled.span.attrs({
 	className: 'black ba bw1 b--black br2 pointer'
 })`
 	display: none;
+	z-index: 1;
 
 	@media (max-width: 1000px) {
 		display: inline-block;

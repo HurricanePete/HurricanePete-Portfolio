@@ -1,5 +1,8 @@
 article.project-tile {
-	background-color: #E7ECE7;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	background-color: aliceblue;
 	border-radius: 5px;
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
@@ -7,6 +10,7 @@ article.project-tile {
 }
 
 div.tile-head {
+	width: 50%;
 	margin-left: 2.5rem;
 	padding: 0.5rem 1rem;
 	border-left: 5px solid #eb6a07;
@@ -17,6 +21,7 @@ div.tile-head > h2 {
 }
 
 div.img-wrapper {
+	width: 50%;
 	padding: 1rem 2.5rem;
 }
 
@@ -30,13 +35,19 @@ div.img-wrapper > a > img:hover {
 }
 
 ul.tech > li {
-	margin-right: 1rem;
 	margin-bottom: 0.5rem;
-    background-color: #2e3838;
     color: white;
-    padding: 0.25rem 0.75rem;
+    padding-right: 0.5rem;
     font-weight: 600;
     font-size: large;
+}
+
+ul.tech > li:after {
+	content: ',';
+}
+
+ul.tech > li:last-child:after {
+	content: '';
 }
 
 ul.tech > :last-child {
@@ -84,10 +95,6 @@ ul.links > li {
 
 .link-button:hover::after {
   	width: 100%;
-}
-
-.article-align {
-	padding: 0rem 2.5rem;
 }
 
 @media only screen and (max-width: 1000px) {

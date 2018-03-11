@@ -12,7 +12,7 @@ import './styles/response-grid.css';
 export default class App extends React.Component {
 	render() {
 	    return (
-	    	<div id="bio">
+	    	<div className="parallax-wrapper">
 		    	<NavBar />
 		    	<main>
 			        <Intro />

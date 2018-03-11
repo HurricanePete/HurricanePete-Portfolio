@@ -1,3 +1,7 @@
+section.hero {
+	background-color: aliceblue;
+}
+
 article.bio {
 	margin: 2rem auto 1rem auto;
 	text-align: center;
@@ -17,10 +21,10 @@ span.contact {
 }
 
 @media only screen and (min-width: 1000px) {
-	.hero {
+/*	.hero {
 		height: 87vh;
 		min-height: 700px;
-	}
+	}*/
 
 	.hero h2 {
 		margin: 5rem auto 2rem 2rem;
