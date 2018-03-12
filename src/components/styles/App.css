@@ -35,13 +35,13 @@ img.avatar {
 }
 
 div.project-row {
-	background-color: cornflowerblue;
+	background: linear-gradient(cornflowerblue, cornflowerblue, aliceblue);
 	position: relative;
 	z-index: 1;
 }
 
 div.project-row:before {
-	background-color: inherit;
+	background-color: cornflowerblue;
 	top: 0;
 	content: '';
 	display: block;
@@ -53,6 +53,8 @@ div.project-row:before {
 	transform-origin: 0 100%;
 	z-index: -1;
 }
+
+
 
 h2.project-head {
 	color: #E7ECE7;
