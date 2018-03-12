@@ -71,3 +71,9 @@ nav a:visited {
     	padding: 3rem 2rem 0 2rem;
 	}
 }
+
+@media only screen and (min-width: 1700px) {
+	nav:after {
+		height: 80%;
+	}
+}
