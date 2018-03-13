@@ -29,6 +29,8 @@ div.img-wrapper {
 div.img-wrapper > a > img {
 	width: 100%;
 	transition: all 0.25s ease-in-out;
+/*fixes an image 'bounce' in Chrome when opacity changes*/
+	-webkit-backface-visibility: hidden;
 }
 
 div.img-wrapper > a > img:hover {
