@@ -1,21 +1,21 @@
 nav {
 	text-align: center;
     font-size: 20px;
-    padding: 2rem 4rem 2rem 4rem;
+    padding: 2rem 4rem 1rem 4rem;
     background-color: lightgoldenrodyellow;
 }
 
 nav:after {
 	background-color: inherit;
-	top: 0;
+	top: calc(2rem + 1rem + 40px);
 	content: '';
 	display: block;
-	height: 35%;
+	height: calc(100vw / 3.487);
 	left: 0;
 	position: absolute;
 	right: 0;
-	transform: skewY(18deg);
-	transform-origin: 100% 100%;
+	transform: skew(74deg);
+	transform-origin: top left;
 	z-index: -1;
 
 }
@@ -65,15 +65,13 @@ nav a:visited {
 	color: #eb6a07;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 1000px) {
 	nav {
 		font-size: 20px;
-    	padding: 3rem 2rem 0 2rem;
+    	padding: 3rem 2rem 1rem 2rem;
 	}
-}
 
-@media only screen and (min-width: 1700px) {
 	nav:after {
-		height: 80%;
+		top: calc(3rem + 1rem + 34px);
 	}
 }
