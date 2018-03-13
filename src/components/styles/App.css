@@ -54,12 +54,17 @@ div.project-row:before {
 	z-index: -1;
 }
 
-
+div.project-row header {
+	width: 100%;
+	text-align: left;
+	margin: 0 2rem;
+}
 
 h2.project-head {
 	color: #E7ECE7;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 	text-transform: uppercase;
+	text-decoration: underline;
 }
 
 div.project-row > section.row {

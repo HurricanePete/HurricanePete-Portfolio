@@ -10,6 +10,10 @@ article.project-tile {
 	box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.5);
 }
 
+article.project-tile:last-child {
+	margin-bottom: 2rem;
+}
+
 div.tile-head {
 	width: 50%;
 	margin-left: 2.5rem;
