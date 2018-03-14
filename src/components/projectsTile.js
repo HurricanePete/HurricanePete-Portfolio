@@ -1,8 +1,5 @@
 import React from 'react';
 
-//import animation component
-import {Fade} from 'react-reveal';
-
 import './styles/projectsTile.css';
 
 export default class ProjectsTile extends React.Component {
@@ -28,8 +25,6 @@ export default class ProjectsTile extends React.Component {
 		const technologies = tile.technologies.map((tech, index) => 
 			<li className="tech-item dib tc" key={index}>{tech}</li>
 		);
-		// <Fade bottom big fraction={0.01} duration={700}>
-		// </Fade>
 		const imageElement = (
 			<div className="img-wrapper tc m-auto">
 				<a href={tile.link} target="_blank">
@@ -42,7 +37,7 @@ export default class ProjectsTile extends React.Component {
 					{tile.align === 'right' ? imageElement : null}
 					<div className="tile-head">
 						<h2>{tile.title}</h2>
-						<ul className="tech tl m-auto" id="tech">
+						<ul className="tech" id="tech">
 							{technologies}
 						</ul>
 					<p className="article-align ma0">{tile.description}</p>
@@ -56,6 +51,15 @@ export default class ProjectsTile extends React.Component {
 					</ul>
 					</div>
 					{tile.align === 'left' ? imageElement : null}
+					<p className="summary-bottom article-align ma0">{tile.description}</p>
+					<ul className="links-bottom">
+						<li className="dib tc">
+							<a className="" href={tile.link} target="_blank">
+								<div className="link-button tc">Live</div>
+							</a>
+						</li>
+						{repoSection}
+					</ul>
 				</article>
 			
 		)

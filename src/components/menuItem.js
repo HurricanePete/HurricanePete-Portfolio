@@ -8,7 +8,7 @@ const MenuListItem = styled.li.attrs({
 	margin: 0 1rem;
 	z-index: 0;
 
-	@media (max-width: 1000px) {
+	@media (max-width: 1020px) {
 		display: block;
 		margin: 1rem 0;
 	}

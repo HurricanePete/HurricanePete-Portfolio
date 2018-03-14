@@ -11,16 +11,16 @@ const MenuComponent = styled.div`
 	animation: 0.5s ${fadeAnimation};
 	background-color: lightgoldenrodyellow;
 	transition: all 1s;
-	color: black;
+	color: #5a5a5a;
 	z-index: 1;
 
 	${props => props.display && css` 
-		@media (max-width: 1000px) {
+		@media (max-width: 1020px) {
 			display: none;
 		}
 	`}
 	${props => !props.display && css` 
-		@media (min-width: 1000px) {
+		@media (min-width: 1020px) {
 			display: none;
 		}
 	`}

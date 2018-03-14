@@ -10,11 +10,11 @@ nav:after {
 	top: calc(2rem + 1rem + 40px);
 	content: '';
 	display: block;
-	height: calc(100vw / 3.487);
+	height: calc(100vw / 4.01);
 	left: 0;
 	position: absolute;
 	right: 0;
-	transform: skew(74deg);
+	transform: skew(76deg);
 	transform-origin: top left;
 	z-index: -1;
 
@@ -37,7 +37,6 @@ nav i {
 }
 
 nav a {
-	color: black;
 	transition: color 0.5s;
 	z-index: 1;
 }
@@ -57,7 +56,6 @@ nav a:visited {
 
 .nav-profile {
 	font-size: 30px;
-	color: black;
 	transition: color 0.5s;
 }
 
@@ -65,7 +63,7 @@ nav a:visited {
 	color: #eb6a07;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1020px) {
 	nav {
 		font-size: 20px;
     	padding: 3rem 2rem 1rem 2rem;

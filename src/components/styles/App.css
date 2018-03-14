@@ -1,5 +1,6 @@
 * {
 	font-family: 'Open Sans', sans-serif;
+	color: #5a5a5a;
 }
 
 main {
@@ -35,8 +36,9 @@ img.avatar {
 }
 
 div.project-row {
-	background: linear-gradient(cornflowerblue, cornflowerblue, aliceblue);
 	position: relative;
+	margin-top: calc(100vh / -3.1);
+	background: linear-gradient(cornflowerblue, cornflowerblue, aliceblue);
 	z-index: 1;
 }
 
@@ -98,22 +100,26 @@ div.parallax {
 	display: flex;
 	position: relative;
 	z-index: -2;
-	height: 100vh;
+	height: 115vh;
 	justify-content: baseline;
 	align-items: center;
 	transform: translateZ(-1px) scale(2);
 	background-color: aliceblue;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1020px) {
 	main {
 		padding-left: 0rem;
 		padding-right: 0rem;
 	}
 
+	div.project-row {
+		margin-top: calc(100vh / -2.89);
+	}
+
 	div.project-row .row {
-		padding-left: 0;
-		padding-right: 0;
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 
 	img.avatar {
