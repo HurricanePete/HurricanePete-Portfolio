@@ -43,7 +43,6 @@ export default class ProjectSection extends React.Component {
 		const tiles = projects.map((tile, index) => 
 			<ProjectsTile key={index} {...tile} />
 		); 
-
 		return(
 		<div className="project-row">
 			<span className="nav-spacing" id="projects"></span>

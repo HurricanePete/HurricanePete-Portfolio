@@ -33,35 +33,34 @@ export default class ProjectsTile extends React.Component {
 			</div>
 		);
 		return(
-				<article className="project-tile clear-float m-auto">
-					{tile.align === 'right' ? imageElement : null}
-					<div className="tile-head">
-						<h2>{tile.title}</h2>
-						<ul className="tech" id="tech">
-							{technologies}
-						</ul>
-					<p className="article-align ma0">{tile.description}</p>
-					<ul className="links tc">
-						<li className="dib tc">
-							<a className="" href={tile.link} target="_blank">
-								<div className="link-button tc">Live</div>
-							</a>
-						</li>
-						{repoSection}
+			<article className="project-tile clear-float m-auto">
+				{tile.align === 'right' ? imageElement : null}
+				<div className="tile-head">
+					<h2>{tile.title}</h2>
+					<ul className="tech" id="tech">
+						{technologies}
 					</ul>
-					</div>
-					{tile.align === 'left' ? imageElement : null}
-					<p className="summary-bottom article-align ma0">{tile.description}</p>
-					<ul className="links-bottom">
-						<li className="dib tc">
-							<a className="" href={tile.link} target="_blank">
-								<div className="link-button tc">Live</div>
-							</a>
-						</li>
-						{repoSection}
-					</ul>
-				</article>
-			
+				<p className="article-align ma0">{tile.description}</p>
+				<ul className="links tc">
+					<li className="dib tc">
+						<a className="" href={tile.link} target="_blank">
+							<div className="link-button tc">Live</div>
+						</a>
+					</li>
+					{repoSection}
+				</ul>
+				</div>
+				{tile.align === 'left' ? imageElement : null}
+				<p className="summary-bottom article-align ma0">{tile.description}</p>
+				<ul className="links-bottom">
+					<li className="dib tc">
+						<a className="" href={tile.link} target="_blank">
+							<div className="link-button tc">Live</div>
+						</a>
+					</li>
+					{repoSection}
+				</ul>
+			</article>		
 		)
 	}
 }

@@ -10,8 +10,6 @@ import './styles/App.css';
 import './styles/response-grid.css';
 
 export default class App extends React.Component {
-	// <main>
-	// </main>
 	render() {
 	    return (
 	    	<div className="parallax-wrapper">
