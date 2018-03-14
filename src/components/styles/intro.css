@@ -1,0 +1,30 @@
+header.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 77vh;
+	width: 100%;
+	padding: 2rem;
+}
+
+h2.intro {
+	font-size: 16px;
+	line-height: 1.5;
+	width: 100%;
+}
+
+span.highlight {
+	color: coral;
+}
+
+@media only screen and (min-width: 1020px) {
+	header.intro {
+		width: 55%;
+		padding: 4rem;
+		height: 80vh;
+	}
+
+	h2.intro {
+		font-size: calc(100vw / 60);
+	}
+}

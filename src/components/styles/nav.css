@@ -1,11 +1,23 @@
 nav {
 	text-align: center;
     font-size: 20px;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    background-color: #2e3838;
-    border-bottom: 1px solid #E7ECE7;
-    z-index: 10;
+    padding: 2rem 4rem 1rem 4rem;
+    background-color: lightgoldenrodyellow;
+}
+
+nav:after {
+	background-color: inherit;
+	top: calc(2rem + 1rem + 40px);
+	content: '';
+	display: block;
+	height: calc(100vw / 4.01);
+	left: 0;
+	position: absolute;
+	right: 0;
+	transform: skew(76deg);
+	transform-origin: top left;
+	z-index: -1;
+
 }
 
 div.nav-bar {
@@ -13,7 +25,6 @@ div.nav-bar {
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    padding: 0 3rem;
 }
 
 nav li {
@@ -26,8 +37,8 @@ nav i {
 }
 
 nav a {
-	color: white;
 	transition: color 0.5s;
+	z-index: 1;
 }
 
 nav a:hover {
@@ -45,10 +56,20 @@ nav a:visited {
 
 .nav-profile {
 	font-size: 30px;
-	color: white;
 	transition: color 0.5s;
 }
 
 .nav-profile:hover {
 	color: #eb6a07;
+}
+
+@media only screen and (min-width: 1020px) {
+	nav {
+		font-size: 20px;
+    	padding: 3rem 2rem 1rem 2rem;
+	}
+
+	nav:after {
+		top: calc(3rem + 1rem + 34px);
+	}
 }

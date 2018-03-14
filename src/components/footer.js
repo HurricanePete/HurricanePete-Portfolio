@@ -6,8 +6,8 @@ import './styles/contact.css';
 const StyledFooter = styled.footer.attrs({
 	className: 'w-100 ph3 ph5-m tc ph6-ltc'
 })`
-	background-color: #E7ECE7;
-	height: 100%;
+	position: absolute;
+	background-color: aliceblue;
 	border-top: 2px solid #003500;
 `;
 

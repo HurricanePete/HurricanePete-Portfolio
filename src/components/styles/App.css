@@ -1,11 +1,10 @@
 * {
 	font-family: 'Open Sans', sans-serif;
+	color: #5a5a5a;
 }
 
 main {
-	padding-top: 4rem;
 	line-height: 1.75rem;
-	background-color: #E7ECE7;
 }
 
 section{
@@ -25,21 +24,26 @@ a {
 p {
 	font-family: 'Open Sans', sans-serif;
 	text-align: justify;
+	font-size: 18px;
 }
 
 img.avatar {
+	display: block;
+	margin: 0 auto;
 	height: auto;
-	width: 400px;
+	width: 250px;
+	border-radius: 50%;
 }
 
 div.project-row {
-	background-color: #2e3838;
 	position: relative;
+	margin-top: calc(100vh / -3.1);
+	background: linear-gradient(cornflowerblue, cornflowerblue, aliceblue);
 	z-index: 1;
 }
 
 div.project-row:before {
-	background-color: inherit;
+	background-color: cornflowerblue;
 	top: 0;
 	content: '';
 	display: block;
@@ -47,15 +51,29 @@ div.project-row:before {
 	left: 0;
 	position: absolute;
 	right: 0;
-	transform: skewY(-4deg);
+	transform: skewY(-11deg);
 	transform-origin: 0 100%;
 	z-index: -1;
 }
 
+div.project-row header {
+	width: 100%;
+	text-align: left;
+	margin: 0 2rem;
+}
+
 h2.project-head {
 	color: #E7ECE7;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+div.project-row > section.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .hidden {
@@ -71,14 +89,44 @@ span.nav-spacing {
 	margin-top: 50px;
 }
 
-@media only screen and (max-width: 1000px) {
+div.parallax-wrapper {
+	perspective: 1px;
+	transform-style: preserve-3d;
+	height: 100vh;
+	overflow-x: hidden;
+}
+
+div.parallax {
+	display: flex;
+	position: relative;
+	z-index: -2;
+	height: 115vh;
+	justify-content: baseline;
+	align-items: center;
+	transform: translateZ(-1px) scale(2);
+	background-color: aliceblue;
+}
+
+@media only screen and (max-width: 1020px) {
 	main {
 		padding-left: 0rem;
 		padding-right: 0rem;
 	}
 
+	div.project-row {
+		margin-top: calc(100vh / -2.89);
+	}
+
 	div.project-row .row {
-		padding-left: 0;
-		padding-right: 0;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	img.avatar {
+		width: 200px;
+	}
+
+	p {
+		font-size: 15px;
 	}
 }
