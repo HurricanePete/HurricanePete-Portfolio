@@ -2,6 +2,7 @@ import React from 'react';
 
 import ProjectsTile from'./projectsTile';
 
+import GliderHuntImage from './static-photos/GliderHuntScale.JPG';
 import JoystickImage from './static-photos/JoystickInformerScale.JPG';
 import ChefPagesImage from './static-photos/ChefPagesScale.JPG';
 import NYCImage from './static-photos/NYCPPBGScale.JPG';
@@ -11,13 +12,22 @@ export default class ProjectSection extends React.Component {
 		super(props);
 		this.state = {
 			projects: [{
+				title: 'GliderHunt',
+				image: GliderHuntImage,
+				description: 'In Progress --- Start hunting for the best paragliding equipment and instructors in your area.',
+				technologies: ['Node', 'MongoDb', 'React', 'React-Redux', 'Redux-Thunk', 'Styled-Components'],
+				link: 'http://www.gliderhunt.com',
+				repo: ['https://github.com/HurricanePete/Glider-Hunt-Client', 'https://github.com/HurricanePete/Glider-Hunt'],
+				align: 'left'
+			},
+			{
 				title: 'Joystick Informer',
 				image: JoystickImage,
 				description: 'Joystick Informer is a simple app where users can search for and buy a wide range of video games. Compare prices across consoles, read summaries, and follow links directly to Amazon and eBay. After creating an account, users can also save their favorite games and see personalized recommendations based on their tastes.',
 				technologies: ['Node', 'MongoDb', 'React', 'React-Redux'],
 				link: 'https://barber-bertie-68258.netlify.com/',
 				repo: ['https://github.com/HurricanePete/Joystick-Informer', 'https://github.com/HurricanePete/Joystick-Server'],
-				align: 'left'
+				align: 'right'
 			}, {
 				title: 'Chef Pages',
 				image: ChefPagesImage,
@@ -25,7 +35,7 @@ export default class ProjectSection extends React.Component {
 				technologies: ['Node', 'MongoDb', 'jQuery'],
 				link: 'https://sleepy-ravine-11904.herokuapp.com/',
 				repo: 'https://github.com/HurricanePete/chef-pages',
-				align: 'right'
+				align: 'left'
 			}, {
 				title: 'NYC Public Parks Bathroom Guide',
 				image: NYCImage,
@@ -33,7 +43,7 @@ export default class ProjectSection extends React.Component {
 				technologies: ['jQuery'],
 				link: 'https://hurricanepete.github.io/NYC-Public-Parks-Bathroom-Guide/',
 				repo: 'https://github.com/HurricanePete/NYC-Public-Parks-Bathroom-Guide',
-				align: 'left'
+				align: 'right'
 			}]
 		}
 	}
